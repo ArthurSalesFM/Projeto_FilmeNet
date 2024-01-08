@@ -1,0 +1,27 @@
+.notFound{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 50px;
+    width: 100%;
+    height: calc(100vh - 250px);
+}
+
+.notFound a{
+    text-decoration: none;
+    background-color: #116feb;
+    color: white;
+    padding: 10px;
+    border-radius: 5px;    
+}
+
+.notFound h1{
+    font-size: 150px;
+    color: red;
+}
+
+.notFound h3{
+    margin-bottom: 20px;
+}
+
